@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B70AE9C1EC3A54C002C07BA /* Trilaterization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70AE9B1EC3A54C002C07BA /* Trilaterization.swift */; };
 		BD4B49B11EC37AC100C7B315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4B49B01EC37AC100C7B315 /* AppDelegate.swift */; };
 		BD4B49B31EC37AC100C7B315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4B49B21EC37AC100C7B315 /* ViewController.swift */; };
 		BD4B49B61EC37AC100C7B315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4B49B41EC37AC100C7B315 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B70AE9B1EC3A54C002C07BA /* Trilaterization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trilaterization.swift; sourceTree = "<group>"; };
 		BD4B49AD1EC37AC100C7B315 /* iBeaconTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeaconTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4B49B01EC37AC100C7B315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD4B49B21EC37AC100C7B315 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				BD4B49BC1EC37AC100C7B315 /* LaunchScreen.storyboard */,
 				BD4B49BF1EC37AC100C7B315 /* Info.plist */,
 				BD4B49B71EC37AC100C7B315 /* iBeaconTest.xcdatamodeld */,
+				5B70AE9B1EC3A54C002C07BA /* Trilaterization.swift */,
 			);
 			path = iBeaconTest;
 			sourceTree = "<group>";
@@ -196,7 +199,7 @@
 				TargetAttributes = {
 					BD4B49AC1EC37AC100C7B315 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = VLLH384AC4;
+						DevelopmentTeam = TTL2AH29LK;
 						ProvisioningStyle = Automatic;
 					};
 					BD4B49C31EC37AC200C7B315 = {
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD4B49B31EC37AC100C7B315 /* ViewController.swift in Sources */,
+				5B70AE9C1EC3A54C002C07BA /* Trilaterization.swift in Sources */,
 				BD4B49B91EC37AC100C7B315 /* iBeaconTest.xcdatamodeld in Sources */,
 				BD4B49B11EC37AC100C7B315 /* AppDelegate.swift in Sources */,
 			);
@@ -419,7 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VLLH384AC4;
+				DEVELOPMENT_TEAM = TTL2AH29LK;
 				INFOPLIST_FILE = iBeaconTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.gh.paciulli.iBeaconTest;
@@ -432,7 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VLLH384AC4;
+				DEVELOPMENT_TEAM = TTL2AH29LK;
 				INFOPLIST_FILE = iBeaconTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.gh.paciulli.iBeaconTest;
@@ -518,6 +522,7 @@
 				BD4B49DA1EC37AC200C7B315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD4B49DB1EC37AC200C7B315 /* Build configuration list for PBXNativeTarget "iBeaconTestTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				BD4B49DD1EC37AC200C7B315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD4B49DE1EC37AC200C7B315 /* Build configuration list for PBXNativeTarget "iBeaconTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				BD4B49E01EC37AC200C7B315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
